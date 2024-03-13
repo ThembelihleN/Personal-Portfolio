@@ -3,7 +3,11 @@ body {
 }
 
 button{
-    background-color: blue;
+    border: black;
+    padding: 50px;
+    margin: 30px;
+    color: blue;
+    font-size: 18 px;
 }
 
 p{
