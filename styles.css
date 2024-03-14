@@ -17,3 +17,9 @@ button:hover{
 p{
     font-family: 'Times New Roman', Times, serif;
 }
+
+img {
+    padding-top: 10 px;
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
