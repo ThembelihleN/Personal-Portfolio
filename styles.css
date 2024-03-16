@@ -9,15 +9,17 @@ header{
 }
 
 button{
-    margin: 50x;
     padding: 10px;
     border: none;
-    border-radius: 10%;
+    border-radius: 30%;
     background-color:  blue;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 button:hover{
-    background-color: aqua;
+    background-color: rgb(48, 48, 195);
 }
 
 p{
@@ -27,7 +29,8 @@ p{
 img{
     padding-top: 20px;
     float: right;
-    border-radius: 50%s;
+    border-radius: 50%;
     width: 200px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
+    overflow: hidden;
 }
