@@ -25,13 +25,13 @@
 }
 
 .logo{
-    background-image: url(images/Thembelihle.png);
+    background-image: url(images/Logo.png);
     background-size: cover;
     max-width: 50px;
     max-height: 50px;
     object-fit: contain;
 }
-
+ 
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -42,6 +42,7 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    position: relative;
 }
 
 nav ul li a::after{
@@ -52,10 +53,19 @@ nav ul li a::after{
     position: absolute;
     left: 0;
     bottom: -6px;
+    transition: 0,5s;
 }
 
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
 
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
 
+}
 
 
 /*body { 
