@@ -1,4 +1,18 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+/*body { 
     background-color: aliceblue;
 }
 
@@ -25,12 +39,4 @@ button:hover{
 p{
     font-family: 'Times New Roman', Times, serif;
 }
-
-img{
-    padding-top: 20px;
-    float: right;
-    border-radius: 50%;
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    overflow: hidden;
-}
+*/
